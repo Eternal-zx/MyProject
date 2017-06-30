@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>美的登录注册</title>
+	<link rel="stylesheet" type="text/css" href="css/register.css"/>
+	<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.cookie.js"></script>
+	<script>
+		$(function(){
+			/*登录注册切换*/
+			$(".has").click(function(){
+				$(".moble_form").css("display","none");
+				$(".ap_form").css("display","block");
+			})
+			$(".msg").click(function(){
+				$(".ap_form").css("display","none");
+				$(".moble_form").css("display","block");
+			})
+			$(".reg").click(function(){
+				$(".register").css("display","block");
+				$(".login_main").css("display","none");
+				// $(".moble_form").css("display","none");
+			})
+			$(".old_has").click(function(){
+				$(".login_main").css("display","block");
+				$(".register").css("display","none");
+			})
+
+			/*登录数据缓存*/
+			$(".login_form_btn").click(function(){
+				$.cookie($(".tel").attr("name"),$(".tel").val());
+				$.cookie($(".psw").attr("name"),$(".psw").val());
+			})
+
+			/*ap登录*/
+			$(".tel_ap").click(function(){
+				var str= $(".tel_ap").val();
+				var ret=/[0-9]{11}/;
+				if(ret.test(str)){
+					$(".tel_ap_errow").html("");//正确
+				}else if(str==0){
+					$(".tel_ap_errow").html("请输入手机号");
+				}
+				else{
+					$(".tel_ap_errow").html("请输入11位数字手机号");
+				}
+			})
+
+			$(".psw_ap").click(function(){
+				var str= $(".psw_ap").val();
+				var ret=/^\w{5,17}$/;
+				if(ret.test(str)){
+					$(".psw_ap_errow").html("");//正确
+				}else if(str==0){
+					$(".psw_ap_errow").html("请输入密码");
+				}
+				else{
+					$(".psw_ap_errow").html("请输入6-18位数字、字母、下划线密码");
+				}
+			})
+
+			/*moble登录*/
+			$(".tel_moble").click(function(){
+				var str= $(".tel_moble").val();
+				var ret=/[0-9]{11}/;
+				if(ret.test(str)){
+					$(".tel_moble_errow").html("");//正确
+				}else if(str==0){
+					$(".tel_moble_errow").html("请输入手机号");
+				}
+				else{
+					$(".tel_moble_errow").html("请输入11位数字手机号");
+				}
+			})
+
+			$(".msg_moble").click(function(){
+				var str= $(".msg_moble").val();
+				var ret=/[a-zA-Z0-9]/;
+				if(ret.test(str)){
+					$(".msg_moble_errow").html("");//正确
+				}else if(str==0){
+					$(".msg_moble_errow").html("请输入验证码");
+				}
+				else{
+					$(".msg_moble_errow").html("请输入正确验证码");
+				}
+			})
+
+			/*注册*/
+			$(".tel_reg").click(function(){
+				var str= $(".tel_reg").val();
+				var ret=/[0-9]{11}/;
+				if(ret.test(str)){
+					$(".tel_reg_errow").html("");//正确
+				}else if(str==0){
+					$(".tel_reg_errow").html("请输入手机号");
+				}
+				else{
+					$(".tel_reg_errow").html("请输入11位数字手机号");
+				}
+			})
+
+			$(".msg_psw_reg").click(function(){
+				var str= $(".msg_psw_reg").val();
+				var ret=/[a-zA-Z0-9]/;
+				if(ret.test(str)){
+					$(".msg_psw_reg_errow").html("");//正确
+				}else if(str==0){
+					$(".msg_psw_reg_errow").html("请输入验证码");
+				}
+				else{
+					$(".msg_psw_reg_errow").html("请输入正确验证码");
+				}
+			})
+
+			$(".psw_reg").click(function(){
+				var str= $(".psw_reg").val();
+				var ret=/^\w{5,17}$/;
+				if(ret.test(str)){
+					$(".psw_reg_errow").html("");//正确
+				}else if(str==0){
+					$(".psw_reg_errow").html("请输入密码");
+				}
+				else{
+					$(".psw_reg_errow").html("请输入6-18位数字、字母、下划线密码");
+				}
+			})
+
+			$(".psw_sure_reg").click(function(){
+				var str= $(".psw_sure_reg").val();
+				var ret=/^\w{5,17}$/;
+				if(ret.test(str)){
+					$(".psw_sure_reg_errow").html("");//正确
+				}else if(str==0){
+					$(".psw_sure_reg_errow").html("请输入密码");
+				}
+				else{
+					$(".psw_sure_reg_errow").html("请输入6-18位数字、字母、下划线密码");
+				}
+			})
+		/*	$(".tel").on("blur",function(){
+
+				if($(".tel").get(0).value.length == 0){
+					$(".errow_tel").html("请输入手机号");
+				}
+				else if($(".tel").get(0).value.length <11){
+					$(".errow_tel").html("请输入11位手机号");
+				}
+				else{
+					$(".errow_tel").html("");
+				}
+			});*/
+		})
+	</script>
+
+</head>
+<body>
+	<div class="header">
+		<a class="site_logo" href="#"><img src="image/header/header_logo.jpg" alt=""></a>
+	</div>
+
+	<div class="login">
+		<div class="login_inner">
+			<a class="active_img" href="#"><img src="image/register/act4.png" alt=""></a>
+			<!-- 登录表单 -->
+			<div class="login_wrap">
+				<div class="login_main">
+					<!-- 合作登录方 -->
+					<div class="login_way">
+						<div class="login_way_tit">使用合作账号登录</div>
+						<ul>
+							<li class="login_way_qq"><a href=""><i class="ico"></i></a></li>
+							<li class="login_way_wx"><a href=""><i class="ico"></i></a></li>
+						</ul>
+					</div>
+					
+					<div class="login_type">
+					<!-- 合作登录 -->
+						<div class="login_form ap_form" style="display: block;" >
+							<form action="" method="post">
+								<div class="login_form_tit">账号密码登陆</div>
+								
+								<div class="login_form_row">
+									<input class="tel tel_ap" name="username" type="text" placeholder="手机号" maxlength="11" />
+									<span class="login_errow_tips tel_ap_errow"></span>
+								</div>
+
+								<div class="login_form_row">
+									<input class="psw psw_ap" name="password" type="password" placeholder="密码"/>
+									<span class="login_errow_tips psw_ap_errow"></span>
+								</div>
+
+								<div class="login_form_row">
+									<a class="login_form_btn" href="#">登录</a>
+								</div>
+								
+								<div class="login_links"> 
+									<a id="msg" class="msg" href="#">短信登录验证</a>
+									<i></i>
+									<a class="reg" href="#">注册</a>
+									<a class="forget" href="#">找回密码</a>
+								</div>
+							</form>
+						</div>
+					<!-- 手机登录 -->
+						<div class="login_form moble_form" style="display: none;">
+							<form action="" method="post">
+								<div class="login_form_tit">短息验证码登录</div>
+
+								<div class="login_form_row">
+									<input class="tel tel_moble" name="username"  type="text" placeholder="手机号" maxlength="11" />
+									<span class="login_errow_tips tel_moble_errow"></span>
+									<a class="login_get_code" href="#">获取验证码</a>
+								</div>
+
+								<div class="login_form_row">
+									<input class="msg_psw msg_moble" type="text" placeholder="短信验证码" maxlength="6"/>
+									<span class="login_errow_tips msg_moble_errow"></span>
+								</div>
+
+								<div class="login_form_row">
+									<a class="login_form_btn" href="#">登录</a>
+								</div>
+								
+								<div class="login_links"> 
+									<a id="has" class="has" href="#">账号密码登录</a>
+									<i></i>
+									<a class="reg" href="#">注册</a>
+									<a class="forget" href="#">找回密码</a>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<!-- 注册 -->
+				<div class="register" style="display: none;">
+					<div>
+						<form action="" method="post">
+							<div class="login_form_tit">使用手机号注册</div>
+
+							<div class="login_form_row">
+								<input class="tel tel_reg" type="text" placeholder="手机号" maxlength="11" />
+								<span class="login_errow_tips tel_reg_errow"></span>
+								<a class="login_get_code" href="#">获取验证码</a>
+							</div>
+							<div class="login_form_row">
+								<input class="msg_psw msg_psw_reg" type="text" placeholder="短信验证码" maxlength="6"/>
+								<span class="login_errow_tips msg_psw_reg_errow"></span>
+							</div>
+
+							<div class="login_form_row">
+								<input class="psw psw_reg" type="password" placeholder="密码"/>
+								<span class="login_errow_tips psw_reg_errow"></span>
+							</div>
+
+							<div class="login_form_row">
+								<input class="psw_sure psw_sure_reg" type="password" placeholder="确认密码"/>
+								<span class="login_errow_tips psw_sure_reg_errow"></span>
+							</div>
+
+							<div class="login_form_row">
+								<span class="login_form_tips">密码由6-20位英文字母、数字或者符号组成</span>
+							</div>					
+
+							<div class="login_form_row">
+								<a class="login_form_btn" href="">注册</a>
+							</div>
+							
+							<div class="login_links"> 
+								<a class="old_has" href="#">已有账号？请登录</a>
+							</div>
+
+						</form>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="copyright">
+			Copyright © 1968-2017 美的集团股份有限公司 粤ICP备09215446号
+		</div>
+
+	</div>
+</body>
+</html>

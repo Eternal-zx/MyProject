@@ -1,0 +1,594 @@
+[
+    {
+        "title": "空调",
+        "child1": [
+            {
+                "img": "image/data/pic1.png",
+                "title": "壁挂空调",
+                "id": "0"
+            },
+            {
+                "img": "image/data/pic2.png",
+                "title": "立柜式空调",
+                "id": "1"
+            },
+            {
+                "img": "image/data/pic13.png",
+                "title": "中央空调",
+                "id": "2"
+            },
+            {
+                "img": "image/data/pic4.png",
+                "title": "其他空调",
+                "id": "3"
+            }
+        ],
+        "child2": [
+            {
+                "img": "image/data/pic5.png",
+                "des": "冰箱 风冷无霜 炫彩外观 BCD-535WKZM(E)",
+                "cost": "￥255"
+            },
+            {
+                "img": "image/data/pic6.png",
+                "des": "冰箱 风冷无霜 炫彩外观 BCD-535WKZM(E)",
+                "cost": "￥255"
+            },
+            {
+                "img": "image/data/pic7.png",
+                "des": "冰箱 风冷无霜 炫彩外观 BCD-535WKZM(E)",
+                "cost": "￥255"
+            },
+            {
+                "img": "image/data/pic8.png",
+                "des": "等我",
+                "cost": "￥255"
+            }
+        ],
+        "chlid3": [
+            {
+                "img": "image/data/pic9.png",
+                "des": "冰箱 风冷无霜 炫彩外观 BCD-535WKZM(E)"
+            },
+            {
+                "img": "image/data/pic10.png",
+                "des": "冰箱 风冷无霜 炫彩外观 BCD-535WKZM(E)"
+            }
+        ]
+    },
+    {
+        "title": "冰箱",
+        "child1": [
+            {
+                "img": "image/data/pic11.png",
+                "title": "单门冰箱"
+            },
+            {
+                "img": "image/data/pic11.png",
+                "title": "双门冰箱"
+            },
+            {
+                "img": "image/data/pic3.png",
+                "title": "多门冰箱"
+            },
+            {
+                "img": "image/data/pic4.png",
+                "title": "对开门冰箱 "
+            },
+            {
+                "img": "image/data/pic3.png",
+                "title": "三门冰箱"
+            },
+            {
+                "img": "image/data/pic11.png",
+                "title": "冷柜"
+            }
+        ],
+        "child2": [
+            {
+                "img": "image/data/pic5.png",
+                "des": "冰箱 风冷无霜 炫彩外观 BCD-535WKZM(E)",
+                "cost": "￥255"
+            },
+            {
+                "img": "image/data/pic6.png",
+                "des": "冰箱 风冷无霜 炫彩外观 BCD-535WKZM(E)",
+                "cost": "￥255"
+            },
+            {
+                "img": "image/data/pic7.png",
+                "des": "冰箱 风冷无霜 炫彩外观 BCD-535WKZM(E)",
+                "cost": "￥255"
+            },
+            {
+                "img": "image/data/pic8.png",
+                "des": "冰箱 风冷无霜 炫彩外观 BCD-535WKZM(E)",
+                "cost": "￥255"
+            }
+        ],
+        "chlid3": [
+            {
+                "img": "image/data/pic9.png",
+                "des": "冰箱 风冷无霜 炫彩外观 BCD-535WKZM(E)"
+            },
+            {
+                "img": "image/data/pic10.png",
+                "des": "冰箱 风冷无霜 炫彩外观 BCD-535WKZM(E)"
+            }
+        ]
+    },
+    {
+        "title": "洗衣机",
+        "child1": [
+            {
+                "img": "image/data/pic12.png",
+                "title": "滚筒洗衣机"
+            },
+            {
+                "img": "image/data/pic12.png",
+                "title": "皮轮洗衣机"
+            },
+            {
+                "img": "image/data/pic3.png",
+                "title": "双缸洗衣机"
+            },
+            {
+                "img": "image/data/pic4.png",
+                "title": "干衣机 "
+            }
+        ],
+        "child2": [
+            {
+                "img": "image/data/pic5.png",
+                "des": "冰箱 风冷无霜 炫彩外观 BCD-535WKZM(E)",
+                "cost": "￥255"
+            },
+            {
+                "img": "image/data/pic6.png",
+                "des": "冰箱 风冷无霜 炫彩外观 BCD-535WKZM(E)",
+                "cost": "￥255"
+            },
+            {
+                "img": "image/data/pic7.png",
+                "des": "冰箱 风冷无霜 炫彩外观 BCD-535WKZM(E)",
+                "cost": "￥255"
+            },
+            {
+                "img": "image/data/pic8.png",
+                "des": "冰箱 风冷无霜 炫彩外观 BCD-535WKZM(E)",
+                "cost": "￥255"
+            }
+        ],
+        "chlid3": [
+            {
+                "img": "image/data/pic9.png",
+                "des": "冰箱 风冷无霜 炫彩外观 BCD-535WKZM(E)"
+            },
+            {
+                "img": "image/data/pic10.png",
+                "des": "冰箱 风冷无霜 炫彩外观 BCD-535WKZM(E)"
+            }
+        ]
+    },
+    {
+        "title": "厨房小电",
+        "child1": [
+            {
+                "img": "image/data/pic13.png",
+                "title": "电饭煲"
+            },
+            {
+                "img": "image/data/pic2.png",
+                "title": "电磁炉"
+            },
+            {
+                "img": "image/data/pic13.png",
+                "title": "微波炉"
+            },
+            {
+                "img": "image/data/pic4.png",
+                "title": "烤箱 "
+            },
+            {
+                "img": "image/data/pic1.png",
+                "title": "炖锅"
+            },
+            {
+                "img": "image/data/pic2.png",
+                "title": "压力锅"
+            },
+            {
+                "img": "image/data/pic3.png",
+                "title": "蒸锅 "
+            },
+            {
+                "img": "image/data/pic4.png",
+                "title": "豆浆机"
+            }
+        ],
+        "child1_1": [
+            {
+                "img": "image/data/pic3.png",
+                "title": "果汁机"
+            },
+            {
+                "img": "image/data/pic1.png",
+                "title": "电饼铛"
+            },
+            {
+                "img": "image/data/pic1.png",
+                "title": "面条机"
+            },
+            {
+                "img": "image/data/pic12.png",
+                "title": "面包机"
+            },
+            {
+                "img": "image/data/pic13.png",
+                "title": "炊具"
+            },
+            {
+                "img": "image/data/pic14.png",
+                "title": "空气炸锅"
+            }
+        ],
+        "child2": [
+            {
+                "img": "image/data/pic5.png",
+                "des": "冰箱 风冷无霜 炫彩外观 BCD-535WKZM(E)",
+                "cost": "￥255"
+            },
+            {
+                "img": "image/data/pic6.png",
+                "des": "冰箱 风冷无霜 炫彩外观 BCD-535WKZM(E)",
+                "cost": "￥255"
+            },
+            {
+                "img": "image/data/pic7.png",
+                "des": "冰箱 风冷无霜 炫彩外观 BCD-535WKZM(E)",
+                "cost": "￥255"
+            },
+            {
+                "img": "image/data/pic8.png",
+                "des": "冰箱 风冷无霜 炫彩外观 BCD-535WKZM(E)",
+                "cost": "￥255"
+            }
+        ],
+        "chlid3": [
+            {
+                "img": "image/data/pic9.png",
+                "des": "冰箱 风冷无霜 炫彩外观 BCD-535WKZM(E)"
+            },
+            {
+                "img": "image/data/pic10.png",
+                "des": "冰箱 风冷无霜 炫彩外观 BCD-535WKZM(E)"
+            }
+        ]
+    },
+    {
+        "title": "厨房大电",
+        "child1": [
+            {
+                "img": "image/data/pic14.png",
+                "title": "电饭煲"
+            },
+            {
+                "img": "image/data/pic2.png",
+                "title": "电磁炉"
+            },
+            {
+                "img": "image/data/pic3.png",
+                "title": "微波炉"
+            },
+            {
+                "img": "image/data/pic14.png",
+                "title": "烤箱 "
+            },
+            {
+                "img": "image/data/pic1.png",
+                "title": "炖锅"
+            },
+            {
+                "img": "image/data/pic2.png",
+                "title": "压力锅"
+            },
+            {
+                "img": "image/data/pic3.png",
+                "title": "蒸锅 "
+            },
+            {
+                "img": "image/data/pic4.png",
+                "title": "豆浆机"
+            }
+        ],
+        "child2": [
+            {
+                "img": "image/data/pic5.png",
+                "des": "冰箱 风冷无霜 炫彩外观 BCD-535WKZM(E)",
+                "cost": "￥255"
+            },
+            {
+                "img": "image/data/pic6.png",
+                "des": "冰箱 风冷无霜 炫彩外观 BCD-535WKZM(E)",
+                "cost": "￥255"
+            },
+            {
+                "img": "image/data/pic7.png",
+                "des": "冰箱 风冷无霜 炫彩外观 BCD-535WKZM(E)",
+                "cost": "￥255"
+            },
+            {
+                "img": "image/data/pic8.png",
+                "des": "冰箱 风冷无霜 炫彩外观 BCD-535WKZM(E)",
+                "cost": "￥255"
+            }
+        ],
+        "chlid3": [
+            {
+                "img": "image/data/pic9.png",
+                "des": "冰箱 风冷无霜 炫彩外观 BCD-535WKZM(E)"
+            },
+            {
+                "img": "image/data/pic10.png",
+                "des": "冰箱 风冷无霜 炫彩外观 BCD-535WKZM(E)"
+            }
+        ]
+    },
+    {
+        "title": "生活家电",
+        "child1": [
+            {
+                "img": "image/data/pic15.png",
+                "title": "电饭煲"
+            },
+            {
+                "img": "image/data/pic2.png",
+                "title": "电磁炉"
+            },
+            {
+                "img": "image/data/pic3.png",
+                "title": "微波炉"
+            },
+            {
+                "img": "image/data/pic4.png",
+                "title": "烤箱 "
+            },
+            {
+                "img": "image/data/pic15.png",
+                "title": "炖锅"
+            },
+            {
+                "img": "image/data/pic2.png",
+                "title": "压力锅"
+            },
+            {
+                "img": "image/data/pic3.png",
+                "title": "蒸锅 "
+            },
+            {
+                "img": "image/data/pic1.png",
+                "title": "豆浆机"
+            }
+        ],
+        "child1_1": [
+            {
+                "img": "image/data/pic3.png",
+                "title": "果汁机"
+            },
+            {
+                "img": "image/data/pic3.png",
+                "title": "电饼铛"
+            },
+            {
+                "img": "image/data/pic1.png",
+                "title": "面条机"
+            }
+        ],
+        "child2": [
+            {
+                "img": "image/data/pic5.png",
+                "des": "冰箱 风冷无霜 炫彩外观 BCD-535WKZM(E)",
+                "cost": "￥255"
+            },
+            {
+                "img": "image/data/pic6.png",
+                "des": "冰箱 风冷无霜 炫彩外观 BCD-535WKZM(E)",
+                "cost": "￥255"
+            },
+            {
+                "img": "image/data/pic7.png",
+                "des": "冰箱 风冷无霜 炫彩外观 BCD-535WKZM(E)",
+                "cost": "￥255"
+            },
+            {
+                "img": "image/data/pic8.png",
+                "des": "冰箱 风冷无霜 炫彩外观 BCD-535WKZM(E)",
+                "cost": "￥255"
+            }
+        ],
+        "chlid3": [
+            {
+                "img": "image/data/pic9.png",
+                "des": "冰箱 风冷无霜 炫彩外观 BCD-535WKZM(E)"
+            },
+            {
+                "img": "image/data/pic10.png",
+                "des": "冰箱 风冷无霜 炫彩外观 BCD-535WKZM(E)"
+            }
+        ]
+    },
+    {
+        "title": "热水器/净水机",
+        "child1": [
+            {
+                "img": "image/data/pic16.png",
+                "title": "电饭煲"
+            },
+            {
+                "img": "image/data/pic2.png",
+                "title": "电磁炉"
+            },
+            {
+                "img": "image/data/pic3.png",
+                "title": "微波炉"
+            },
+            {
+                "img": "image/data/pic4.png",
+                "title": "烤箱 "
+            },
+            {
+                "img": "image/data/pic2.png",
+                "title": "炖锅"
+            },
+            {
+                "img": "image/data/pic16.png",
+                "title": "压力锅"
+            },
+            {
+                "img": "image/data/pic3.png",
+                "title": "蒸锅 "
+            },
+            {
+                "img": "image/data/pic4.png",
+                "title": "豆浆机"
+            }
+        ],
+        "child1_1": [
+            {
+                "img": "image/data/pic1.png",
+                "title": "果汁机"
+            }
+        ],
+        "child2": [
+            {
+                "img": "image/data/pic5.png",
+                "des": "冰箱 风冷无霜 炫彩外观 BCD-535WKZM(E)",
+                "cost": "￥255"
+            },
+            {
+                "img": "image/data/pic6.png",
+                "des": "冰箱 风冷无霜 炫彩外观 BCD-535WKZM(E)",
+                "cost": "￥255"
+            },
+            {
+                "img": "image/data/pic7.png",
+                "des": "冰箱 风冷无霜 炫彩外观 BCD-535WKZM(E)",
+                "cost": "￥255"
+            },
+            {
+                "img": "image/data/pic8.png",
+                "des": "冰箱 风冷无霜 炫彩外观 BCD-535WKZM(E)",
+                "cost": "￥255"
+            }
+        ],
+        "chlid3": [
+            {
+                "img": "image/data/pic9.png",
+                "des": "冰箱 风冷无霜 炫彩外观 BCD-535WKZM(E)"
+            },
+            {
+                "img": "image/data/pic10.png",
+                "des": "冰箱 风冷无霜 炫彩外观 BCD-535WKZM(E)"
+            }
+        ]
+    },
+    {
+        "title": "配件及周边",
+        "child1": [
+            {
+                "img": "image/data/pic17.png",
+                "title": "电饭煲"
+            },
+            {
+                "img": "image/data/pic2.png",
+                "title": "电磁炉"
+            },
+            {
+                "img": "image/data/pic3.png",
+                "title": "微波炉"
+            },
+            {
+                "img": "image/data/pic4.png",
+                "title": "烤箱 "
+            },
+            {
+                "img": "image/data/pic15.png",
+                "title": "炖锅"
+            },
+            {
+                "img": "image/data/pic16.png",
+                "title": "压力锅"
+            },
+            {
+                "img": "image/data/pic17.png",
+                "title": "蒸锅 "
+            },
+            {
+                "img": "image/data/pic1.png",
+                "title": "豆浆机"
+            }
+        ],
+        "child1_1": [
+            {
+                "img": "image/data/pic2.png",
+                "title": "果汁机"
+            },
+            {
+                "img": "image/data/pic13.png",
+                "title": "电饼铛"
+            },
+            {
+                "img": "image/data/pic14.png",
+                "title": "面条机"
+            },
+            {
+                "img": "image/data/pic12.png",
+                "title": "面包机"
+            },
+            {
+                "img": "image/data/pic13.png",
+                "title": "炊具"
+            },
+            {
+                "img": "image/data/pic14.png",
+                "title": "空气炸锅"
+            },
+            {
+                "img": "image/data/pic15.png",
+                "title": "空气炸锅"
+            }
+        ],
+        "child2": [
+            {
+                "img": "image/data/pic5.png",
+                "des": "冰箱 风冷无霜 炫彩外观 BCD-535WKZM(E)",
+                "cost": "￥255"
+            },
+            {
+                "img": "image/data/pic6.png",
+                "des": "冰箱 风冷无霜 炫彩外观 BCD-535WKZM(E)",
+                "cost": "￥255"
+            },
+            {
+                "img": "image/data/pic7.png",
+                "des": "冰箱 风冷无霜 炫彩外观 BCD-535WKZM(E)",
+                "cost": "￥255"
+            },
+            {
+                "img": "image/data/pic8.png",
+                "des": "冰箱 风冷无霜 炫彩外观 BCD-535WKZM(E)",
+                "cost": "￥255"
+            }
+        ],
+        "chlid3": [
+            {
+                "img": "image/data/pic9.png",
+                "des": "冰箱 风冷无霜 炫彩外观 BCD-535WKZM(E)"
+            },
+            {
+                "img": "image/data/pic10.png",
+                "des": "冰箱 风冷无霜 炫彩外观 BCD-535WKZM(E)"
+            }
+        ]
+    }
+]
